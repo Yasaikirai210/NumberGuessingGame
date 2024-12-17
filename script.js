@@ -1,4 +1,4 @@
-let secretNumber = Math.floor(Math.random() * 10) + 1;
+let secretNumber = Math.floor(Math.random() * 100) + 1;
 
 function checkGuess() {
     const userGuess = parseInt(document.getElementById('guessInput').value);
